@@ -133,3 +133,15 @@ input[type="button"]:hover{
   transition: 0.46s;
   background-color: rgb(16, 210, 71);
 }
+@media (max-width:373px) {
+  form input.operator{
+    color: #d98429;
+    font-size: 15px;
+   
+  }
+  .calculator form input{
+    width: 30px;
+    height: 30px;
+  }
+
+}
